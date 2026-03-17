@@ -6,7 +6,7 @@ import { Menu, X, Leaf } from "lucide-react";
 const navLinks = [
   { label: "Home", href: "/" },
   { label: "Produtos", href: "/produtos" },
-  { label: "Tipos de Pele", href: "/#como-funciona" },
+  { label: "Tipos de Pele", href: "/tipos-de-pele" },
   { label: "Marcas", href: "/#marcas" },
   { label: "Sobre", href: "/#beneficios" },
 ];
