@@ -21,8 +21,6 @@ const Navbar = () => {
           <Leaf className="h-6 w-6 text-primary" />
           SkinCare Advisor
         </Link>
-          SkinCare Advisor
-        </a>
 
         {/* Desktop */}
         <div className="hidden md:flex items-center gap-8">
