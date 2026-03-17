@@ -3,11 +3,11 @@ import { Button } from "@/components/ui/button";
 import { Menu, X, Leaf } from "lucide-react";
 
 const navLinks = [
-  { label: "Home", href: "#" },
-  { label: "Produtos", href: "#produtos" },
-  { label: "Tipos de Pele", href: "#como-funciona" },
-  { label: "Marcas", href: "#marcas" },
-  { label: "Sobre", href: "#beneficios" },
+  { label: "Home", href: "/" },
+  { label: "Produtos", href: "/produtos" },
+  { label: "Tipos de Pele", href: "/#como-funciona" },
+  { label: "Marcas", href: "/#marcas" },
+  { label: "Sobre", href: "/#beneficios" },
 ];
 
 const Navbar = () => {
