@@ -8,7 +8,6 @@ const navLinks = [
   { label: "Produtos", href: "/produtos" },
   { label: "Tipos de Pele", href: "/tipos-de-pele" },
   { label: "Análise de Pele", href: "/analise-de-pele" },
-  { label: "Marcas", href: "/#marcas" },
   { label: "Sobre", href: "/#beneficios" },
 ];
 
@@ -36,11 +35,6 @@ const Navbar = () => {
           ))}
         </div>
 
-        <div className="hidden md:block">
-          <Button variant="hero" size="sm" className="rounded-full px-6 h-9 text-sm">
-            Entrar / Cadastro
-          </Button>
-        </div>
 
         {/* Mobile toggle */}
         <button className="md:hidden text-foreground" onClick={() => setOpen(!open)}>
@@ -61,9 +55,6 @@ const Navbar = () => {
               {link.label}
             </Link>
           ))}
-          <Button variant="hero" size="sm" className="w-full rounded-full h-9 text-sm">
-            Entrar / Cadastro
-          </Button>
         </div>
       )}
     </nav>
