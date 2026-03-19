@@ -55,9 +55,6 @@ const Navbar = () => {
               {link.label}
             </Link>
           ))}
-          <Button variant="hero" size="sm" className="w-full rounded-full h-9 text-sm">
-            Entrar / Cadastro
-          </Button>
         </div>
       )}
     </nav>
