@@ -7,6 +7,7 @@ const navLinks = [
   { label: "Home", href: "/" },
   { label: "Produtos", href: "/produtos" },
   { label: "Tipos de Pele", href: "/tipos-de-pele" },
+  { label: "Análise de Pele", href: "/analise-de-pele" },
   { label: "Marcas", href: "/#marcas" },
   { label: "Sobre", href: "/#beneficios" },
 ];
