@@ -35,11 +35,6 @@ const Navbar = () => {
           ))}
         </div>
 
-        <div className="hidden md:block">
-          <Button variant="hero" size="sm" className="rounded-full px-6 h-9 text-sm">
-            Entrar / Cadastro
-          </Button>
-        </div>
 
         {/* Mobile toggle */}
         <button className="md:hidden text-foreground" onClick={() => setOpen(!open)}>
